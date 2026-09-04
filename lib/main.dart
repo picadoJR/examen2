@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Elegance',
-      theme: ThemeData(useMaterial3: true, fontFamily: 'Arial'),
+      theme: ThemeData(
+        useMaterial3: true,
+        fontFamily: 'Arial',
+      ),
       home: const LoginPage(),
     );
   }
